@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<html style="height:100%">
+<html lang="fa">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> Saycoder
-</title></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">Hi</h1>
-<h2 style="margin-top:20px;font-size: 30px;">you are welcome
-</h2>
-<p>A new project is underway!</p>
-<p>saycoder[at].gmail.com</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saycoder - معرفی پروژه‌ها</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Saycoder</h1>
+        <nav>
+            <a href="#about">درباره من</a>
+            <a href="#projects">پروژه‌ها</a>
+            <a href="#contact">تماس با من</a>
+        </nav>
+    </header>
 
-</div></div></body></html>
+    <section id="about">
+        <h2>درباره من</h2>
+        <p>به سایت شخصی من خوش آمدید! من یک برنامه‌نویس هستم و در اینجا پروژه‌های خود را معرفی می‌کنم.</p>
+    </section>
+
+    <section id="projects">
+        <h2>پروژه‌ها</h2>
+        <div id="project-list" class="project-list"></div>
+    </section>
+
+    <section id="contact">
+        <h2>تماس با من</h2>
+        <form>
+            <input type="text" placeholder="نام شما" required>
+            <input type="email" placeholder="ایمیل شما" required>
+            <textarea placeholder="پیام شما"></textarea>
+            <button type="submit">ارسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>تمامی حقوق محفوظ است © Saycoder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

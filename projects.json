@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "name": "پیام ویژه",
+            "description": "توضیح مختصر درباره پروژه اول",
+            "link": "https://cafebazaar.ir/app/com.saycoder.smsmanager"
+        },
+        {
+            "name": "پروژه دوم",
+            "description": "توضیح مختصر درباره پروژه دوم",
+            "link": "https://github.com/username/project2"
+        }
+    ]
+}
