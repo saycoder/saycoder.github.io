@@ -2,13 +2,15 @@
     "projects": [
         {
             "name": "پیام ویژه",
-            "description": "توضیح مختصر درباره پروژه اول",
+            "description": "
+			اپلیکشن مدیریت پیامک با امکان ارسال پیامک انبوه اینترنتی
+			",
             "link": "https://cafebazaar.ir/app/com.saycoder.smsmanager"
         },
         {
-            "name": "پروژه دوم",
-            "description": "توضیح مختصر درباره پروژه دوم",
-            "link": "https://github.com/username/project2"
+            "name": "ماشین من",
+            "description": "مدیریت هوشمند سرویس های دوره ای خودرو",
+            "link": "https://cafebazaar.ir/app/com.anasoftco.mycar"
         }
     ]
 }
